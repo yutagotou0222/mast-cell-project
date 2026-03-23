@@ -1,0 +1,31 @@
+# Data and Results (重いデータや機密性の高い予測結果はアップロードしない)
+data/raw/*
+data/processed/*
+models/*
+results/*
+
+# Extensions to strictly ignore (どこに保存されていても弾く)
+*.csv
+*.tsv
+*.txt
+*.gz
+*.pkl
+*.edgelist
+*.npy
+*.npz
+*.joblib
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
